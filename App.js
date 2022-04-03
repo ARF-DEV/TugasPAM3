@@ -16,16 +16,11 @@ function App() {
         <Core.Screen
           name='Home' 
           component={Home}
-          options={{
-            tabBarLabel: 'Home',
-            tabBarIcon: ({color, size}) => (<MaterialCommuintyIcons name="home" size={size} color={color} />)
-          }} 
         />
         <Core.Screen 
-          name='Daftar Pesanan' 
+          name='Daftar Penerbangan' 
           component={Daftar}
           options={{
-            tabBarLabel: 'Daftar Pesanan',
             headerShown : true,
             headerTitleAlign : 'center',
             headerTitleStyle : {
@@ -34,7 +29,6 @@ function App() {
             headerStyle : {
               backgroundColor : '#024D88',
             },
-            tabBarIcon: ({color, size}) => (<MaterialCommuintyIcons name="book" size={size} color={color} />)
           }}  
         />
       </Core.Navigator>

@@ -63,7 +63,7 @@ function Home( {route, navigation} ) {
             </View>
           </View>
         <View style = {style.buttonContainer}>
-          <Button onPress={() => {navigation.navigate("Daftar Pesanan")}} 
+          <Button onPress={() => {navigation.navigate("Daftar Penerbangan")}} 
           style={style.buttonStyle} title="Buat Tiket" />
         </View>
       </View>
