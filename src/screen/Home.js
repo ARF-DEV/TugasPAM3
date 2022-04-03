@@ -14,7 +14,6 @@ function Home( {route, navigation} ) {
   const [date, setDate] = useState(new Date());
   const showDatepicker = () => {
     DateTimePickerAndroid.open({
-      value: date,
       onChange : (e, date) => {
         console.log(typeof(date))
         setDate(date);

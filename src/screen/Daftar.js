@@ -10,9 +10,6 @@ import { Maskapai, Bandara, Jadwal } from '../../data/json';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 function Daftar( {route, navigation} ) {
-  // const data = route.params;
-  console.log(typeof(Bandara[0]));
-
   const ListData = () => {
       let result = []
       for (let i = 0; i < Jadwal.length; i++) {

@@ -5,7 +5,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import MaterialCommuintyIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import Home from './src/screen/Home';
-import DaftarPesanan from './src/screen/DaftarPesanan';
+import Daftar from './src/screen/Daftar';
 
 
 const Core = createNativeStackNavigator();
@@ -23,7 +23,7 @@ function App() {
         />
         <Core.Screen 
           name='Daftar Pesanan' 
-          component={DaftarPesanan}
+          component={Daftar}
           options={{
             tabBarLabel: 'Daftar Pesanan',
             headerShown : true,
