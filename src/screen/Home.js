@@ -67,6 +67,10 @@ function Home( {route, navigation} ) {
           style={style.buttonStyle} title="Buat Tiket" />
         </View>
       </View>
+      <View style={style.copyright}>
+            <Text style={style.cop}>- Copyright -</Text> 
+            <Text style={style.cop}>Muhammad Ariefuddin Satria Dharma - 119140149</Text>
+      </View>
     </SafeAreaView>
   );
 }
@@ -130,6 +134,16 @@ const style = new StyleSheet.create({
   buttonContainer: {
     marginHorizontal : 30,
     marginVertical : 15,
+  },
+  copyright:{
+    marginVertical : 20,
+    alignItems: 'center',
+    width : '100%',
+  },
+  cop:{
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: 'black',
   },
 });
 
