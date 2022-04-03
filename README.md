@@ -1,7 +1,6 @@
 # TugasPAM3
 #### Nama : Muhammad Ariefuddin Satria Dharma
 #### NIM : 119140149
-
 ## Penjelasan Source Code
 App.js
 ```JavaScript
@@ -373,3 +372,9 @@ JSON yang didapat dari import di line awal lalu memproses data maskapai, bandara
 - Nama Maskapai
 
 Setelah proses nya selesai maka akan diubah kedalam react component yang nanti akan tampilkan didalam ScrollView
+
+## Screenshot
+### Home
+![](https://github.com/ARF-DEV/TugasPAM3/blob/master/screenshot/Home.jpeg)
+### Daftar Penerbangan
+![](https://github.com/ARF-DEV/TugasPAM3/blob/master/screenshot/Daftar%20Penerbangan.jpeg)
